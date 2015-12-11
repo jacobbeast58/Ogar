@@ -9,7 +9,7 @@ function FFA() {
 }
 
 module.exports = FFA;
-FFA.prototype = new Mode();
+FFA.prototype = new Mode(Black hole);
 
 // Gamemode Specific Functions
 
